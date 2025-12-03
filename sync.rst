@@ -14,8 +14,11 @@
 Добавление/обновление узлов на сервере
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`` POST /api/config/<config_uid> /node/<class_name>
- 
+
+``POST /api/config/<config_uid> /node/<class_name>``
+
+.. code-block:: JSON 
+
  {
     "_id": "node_id",
     "_data":{
@@ -23,22 +26,22 @@
         "field1": "value1",
         "field2": "value2"
     }
- }``
+ }
 
 Добавление/обновление узлов на сервере сразу с регистрацией для устройтв
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`` POST /api/config/<config_uid>/node/<class_name>?room=<room_id>``
+``POST /api/config/<config_uid>/node/<class_name>?room=<room_id>``
 
 Вернуть все узлы класса
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`` GET /api/config/<config_uid>/node/<class_name>``
+``GET /api/config/<config_uid>/node/<class_name>``
 
 Зарегистрировать все узлы в комнате
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`` POST /api/config/<config_uid>/node/<class_name>/register/<room_uid>``
+``POST /api/config/<config_uid>/node/<class_name>/register/<room_uid>``
 
 Working with specific node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -87,6 +90,7 @@ API описано в предыдущем разделе. Для того, чт
  }
  }
  ]
+
 
 
 
