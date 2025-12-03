@@ -18,22 +18,30 @@
  1.	Когда вы добавляете датасет, для него, также как и для класса, создается REST-API с помощью которого вы отправляете данные из внешней системы на сервер. Т.е. ваши справочники хранятся на сервере, а клиенты-устройства их скачивают. 
 
 API в общем виде такое:
+
 Добавление/обновление записей
-POST /api/config/<configuration_uid>/dataset/<dataset_name>/items
-                                    Content-Type: application/json
 
-                                    [
-                                        {"_id": "1", "field1": "value1", "field2": "value2"},
-                                        {"_id": "2", "field1": "value3", "field2": "value4"}
-                                    ]
+``POST /api/config/<configuration_uid>/dataset/<dataset_name>/items``
+                                    
+.. code-block:: Python
+ [
+     {"_id": "1", "field1": "value1", "field2": "value2"},
+     {"_id": "2", "field1": "value3", "field2": "value4"}
+ ]
+
 Получение всех записей
-GET /api/config/<configuration_uid>/dataset/<dataset_name>/items
-Delete all records
-DELETE /api/config/<configuration_uid>/dataset/<dataset_name>/items
-Delete one record
-DELETE https://nmaker.pw/api/config/<configuration_uid>/dataset/<dataset_name>/items/item_id
 
+``GET /api/config/<configuration_uid>/dataset/<dataset_name>/items``
+
+Delete all records
+
+``DELETE /api/config/<configuration_uid>/dataset/<dataset_name>/items``
+
+Delete one record
+
+``DELETE https://nmaker.pw/api/config/<configuration_uid>/dataset/<dataset_name>/items/item_id``
 
 
 2.	В датасете, котрый поступает на устройство, хранится GET-ссылка на api с котрой он должен скачать данные и по ней он при каждом запуске приложения обновляет датасет. Я упомянул этот момент потому, что тут хранится абсолютная ссылка и датасет на устройстве всегда будет обращаться по ней. Если вы перенесете конфигурацию на другой сервер, датасет будет все равно обращаться по той ссылке.
+
 
