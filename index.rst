@@ -10,6 +10,7 @@
    :maxdepth: 2
    :caption: Contents:
 
+   quick_start
    architect
    configuration
    classes
@@ -23,4 +24,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
 
