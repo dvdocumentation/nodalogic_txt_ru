@@ -454,7 +454,7 @@
 Доступность: мобильный клиент и веб-клиент
 
 .. image:: _static/flat_table.png
-       :scale: 55%
+       :scale: 70%
        :align: center
 
 
@@ -488,10 +488,10 @@
 
 
 Закладки/Страницы
----------------------
+""""""""""""""""""""""""""
 
 .. image:: _static/tabs.png
-       :scale: 55%
+       :scale: 70%
        :align: center
 
 
@@ -1042,5 +1042,6 @@ _hidden
 Пример скрытия узла
 
 ``self._data["_hidden"] = True``
+
 
 
