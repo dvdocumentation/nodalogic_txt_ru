@@ -14,7 +14,7 @@
    architect
    classes
    configuration
-   mobile
+   clients
    sync
    datasets			
 
