@@ -15,6 +15,7 @@
    classes
    configuration
    clients
+   nodascript
    sync
    datasets			
 
@@ -24,6 +25,7 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
 
 
 
