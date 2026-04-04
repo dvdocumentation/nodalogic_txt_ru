@@ -17,6 +17,7 @@
    configuration
    clients
    nodascript
+   indexes
    sync
    datasets			
 
