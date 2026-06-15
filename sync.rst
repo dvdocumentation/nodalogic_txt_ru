@@ -31,7 +31,7 @@
 
 Добавление/обновление узлов на сервере:
 
-.. sourcecode:: http
+.. sourcecode:: text
 
       POST /api/config/<config_uid> /node/<class_name>
 
@@ -43,7 +43,7 @@
 
 Вернуть все узлы класса:
 
-.. sourcecode:: http
+.. sourcecode:: text
 
       GET /api/config/<config_uid>/node/<class_name>
 
@@ -73,13 +73,13 @@
 
 Зарегистрировать все узлы в комнате. Эти команды регистируют либо все объекты класса либо выбранные объекты на конкретный UID room (не псевдоним)
 
-.. sourcecode:: http
+.. sourcecode:: text
 
       POST /api/config/<config_uid>/node/<class_name>/register/<room_uid>
 
 Зарегистрировать определенные узлы в комнате
 
-.. sourcecode:: http
+.. sourcecode:: text
 
       POST /api/config/<config_uid>/node/<class_name>/register/<room_uid>
       
