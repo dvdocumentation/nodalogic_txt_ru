@@ -19,6 +19,7 @@
    nodascript
    indexes
    sync
+   http
    datasets			
 
 Indices and tables
