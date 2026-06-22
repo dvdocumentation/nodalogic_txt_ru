@@ -19,6 +19,7 @@
    nodascript
    indexes
    sync
+   cv
    http
    datasets			
 
