@@ -14,9 +14,13 @@
 Рекомендуется ознакомиться со статьями, видео и примерами, так как в документацию попадает с некоторой задержкой. Статьи:
 
 https://nmaker.pw/articles/ru/platform-overview/
+
 https://infostart.ru/1c/articles/2614496/
+
 https://infostart.ru/1c/articles/2714577/
+
 https://infostart.ru/1c/articles/2635403/
+
 https://infostart.ru/1c/tools/2682705/
 
 Канал по NodaLogic на YouTube: https://www.youtube.com/playlist?list=PLsvLZ7PBE6oJ8WMgAMa9UJctlXDE8UJIz
