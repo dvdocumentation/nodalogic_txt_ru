@@ -13,9 +13,7 @@
 
 Рекомендуется ознакомиться со статьями, видео и примерами, так как в документацию попадает с некоторой задержкой. Статьи:
 
-https://habr.com/ru/articles/1011090/
-https://habr.com/ru/articles/1034202/
-https://habr.com/ru/articles/1046792/
+https://nmaker.pw/articles/ru/platform-overview/
 https://infostart.ru/1c/articles/2614496/
 https://infostart.ru/1c/articles/2714577/
 https://infostart.ru/1c/articles/2635403/
