@@ -21,6 +21,7 @@
    quant_ledger
    sync
    cv
+   maps_ru
    http
    datasets			
 
