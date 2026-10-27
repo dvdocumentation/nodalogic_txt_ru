@@ -19,6 +19,7 @@
    nodascript
    indexes
    quant_ledger
+   mcp
    sync
    cv
    maps_ru
